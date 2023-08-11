@@ -4,7 +4,7 @@ server:
 #spring-related
 spring:
   application:
-    name: POD
+    name: CONFIG-POD
 #resgister this service in your eureka server
 eureka:
   instance:
