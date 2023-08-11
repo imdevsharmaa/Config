@@ -1,7 +1,3 @@
-#spring-related
-spring:
-  application:
-    name: CONFIG-POD
 #resgister this service in your eureka server
 eureka:
   instance:
