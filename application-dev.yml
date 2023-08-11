@@ -4,7 +4,7 @@ server:
 #spring-related
 spring:
   application:
-    name: DEV
+    name: CONFIG-DEV
 #resgister this service in your eureka server
 eureka:
   instance:
