@@ -1,1 +1,17 @@
+#local-server
+server:
+  port: 8085
+#spring-related
+spring:
+  application:
+    name: DEV
+#resgister this service in your eureka server
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka
 
